@@ -1,0 +1,44 @@
+% This file was created with JabRef 2.10.
+% Encoding: UTF8
+
+
+@Book{sugano2012,
+  Title                    = {BIOPHARMACEUTICS MODELING AND SIMULATIONS Theory, Practice, Methods, and Applications},
+  Author                   = {KIYOHIKO SUGANO},
+  Publisher                = {A JOHN WILEY \& SONS, INC., PUBLICATION},
+  Year                     = {2012},
+
+  Owner                    = {PP},
+  Timestamp                = {2017.07.25}
+}
+
+@Article{zhang2010,
+  Title                    = {PKSolver: An add-in program for pharmacokinetic and pharmacodynamic data analysis in Microsoft Excel},
+  Author                   = {Yong Zhang, Meirong Huo, Jianping Zhou, Shaofei Xie},
+  Journal                  = {Computer Methods and Programs in Biomedicine},
+  Year                     = {2010},
+  Pages                    = {306-314},
+  Volume                   = {99},
+
+  Abstract                 = {This study presents PKSolver, a freely available menu-driven add-in program for Microsoft
+Excel written in Visual Basic for Applications (VBA), for solving basic problems in pharma-
+cokinetic (PK) and pharmacodynamic (PD) data analysis. The program provides a range of
+modules for PK and PD analysis including noncompartmental analysis (NCA), compartmen-
+tal analysis (CA), and pharmacodynamic modeling. Two special built-in modules, multiple
+absorption sites (MAS) and enterohepatic circulation (EHC), were developed for fitting the
+double-peak concentration–time profile based on the classical one-compartment model.
+In addition, twenty frequently used pharmacokinetic functions were encoded as a macro
+and can be directly accessed in an Excel spreadsheet. To evaluate the program, a detailed
+comparison of modeling PK data using PKSolver and professional PK/PD software package
+WinNonlin and Scientist was performed. The results showed that the parameters esti-
+mated with PKSolver were satisfactory. In conclusion, the PKSolver simplified the PK and
+PD data analysis process and its output could be generated in Microsoft Word in the form
+of an integrated report. The program provides pharmacokinetic researchers with a fast and
+easy-to-use tool for routine and basic PK and PD data analysis with a more user-friendly
+interface.},
+  Owner                    = {PP},
+  Timestamp                = {2017.07.25}
+}
+
+@comment{jabref-meta: fileDirectory:/home/gxb/Notebooks/JabRef;}
+
