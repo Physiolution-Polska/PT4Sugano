@@ -39,20 +39,29 @@ for i in range(T_lag, 50):
 #        print('xxx ',i,time_exp[i], T_lag)
 
 
-plt.plot(time_exp, con_exp1)
-plt.plot(time_exp, con_exp2)
+plt.plot(time_exp, con_exp1, '-o')
+# plt.plot(time_exp, con_exp2)
 
+druk = np.vstack((con_exp1,time_exp))
+print(druk)
 with open("data.csv", "wb") as output_file:
-    writer = csv.writer(output_file, delimiter=';', lineterminator='\n')
-with open("data.csv", "r") as output_file:
-    for line in output_file:
-        print(time_exp[line])
-#    writer.writerows(time_exp) 
+    twriter = csv.writer(output_file, delimiter=';')
+#with open("data.csv", "r") as output_file:
+    for line in druk:
+        twriter.writerow([line]) 
+
+#        print(time_exp[line])
+  
 #    writer.writerows(con_exp2) 
 #    writer.writerows(con_exp1) 
+#with open('eggs.csv', 'wb') as csvfile:
+#    spamwriter = csv.writer(csvfile, delimiter=' ')
+#    spamwriter.writerow(['Spam'] * 5 + ['Baked Beans'])
+#   spamwriter.writerow(['Spam', 'Lovely Spam', 'Wonderful Spam'])
 
 
-# print(con_exp1)
+
+print(con_exp1)
 # print(con_exp2)
 
 
